@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerlinks}}
+</head>
+
+<body>
+    {{>navbar}}
+
+    <!-- main header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- left Side Div -->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errimg">
+                            <img src="images/404.png" alt="Anuj" class="img-fluid" title="Anuj Mane">
+                        </figure>
+                    
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button>Home</button></a>
+                    </div>
+                    <!-- Right Side Div -->
+
+                </div>
+            </div>
+        </div>
+
+        <!-- footer Code -->
+        {{>footer}}
+
+</body>
+
+</html>
