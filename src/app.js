@@ -14,7 +14,6 @@ const partialsPath = path.join(__dirname, "../templates/partials");
 app.set('view engine', 'hbs');
 app.set('views', templatePath);
 hbs.registerPartials(partialsPath);
-
 app.use(express.static(staticPath));
 
 // ROuting
